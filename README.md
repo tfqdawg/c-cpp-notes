@@ -1,2 +1,1 @@
-# c-cpp-notes
-C/C++ notes.
+# <p align="center> C/C++ Notes. </p>

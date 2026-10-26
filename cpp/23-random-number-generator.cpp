@@ -1,0 +1,21 @@
+/*
+  -> pseudo-random = NOT truly a random number
+*/
+
+#include <iostream>
+#include <ctime>
+
+int main(){
+  
+  srand(time(NULL)); // use current time as a seed
+  
+  int num1 = (rand() % 6) + 1; // % 6 sets the ranges of random number generated from 1-20
+  int num2 = (rand() % 6) + 1;
+  int num3 = (rand() % 6) + 1;
+
+  std::cout << num1 << '\n';
+  std::cout << num2 << '\n';
+  std::cout << num3 << '\n';
+
+  return 0;
+}
